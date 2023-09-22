@@ -1,4 +1,4 @@
-#Part 2 - Compare the performance of ArrayList, Vector and ordinary arrays.
+# Part 2 - Compare the performance of ArrayList, Vector and ordinary arrays.
 
 This is the implementation of part2
 Codes are in the directory Compare Arrays. The program will instruct you to choose a kind of data structure from ArrayList, Vector and ordinary arrays, and then output the time spent on construction and iteration.

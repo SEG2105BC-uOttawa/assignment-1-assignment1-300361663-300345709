@@ -17,6 +17,10 @@ public class part1Test {
 		Instant startDesign1 = Instant.now();
 		for (int i = 0; i < myRandInt; i++) {
 			PointCP point = new PointCP('C', 2.5, 2.4);
+			point.getX();
+			point.getY();
+			point.getRho();
+			point.getTheta();
 			point.convertStorageToCartesian();
 			 //System.out.println("\nAfter asking to store as Cartesian:\n" + point);
 			point.convertStorageToPolar();
@@ -33,6 +37,10 @@ public class part1Test {
 		Instant startDesign5 = Instant.now();
 		for (int i = 0; i < myRandInt; i++) {
 			PointCP5 cp = new PointCP3(2.5, 2.4);//new c
+			cp.getX();
+			cp.getY();
+			cp.getRho();
+			cp.getTheta();
 			PointCP5 cp2 = cp.convertStorageToPolar();// return new cp2/P
 			PointCP5 cp3 = cp.convertStorageToCartesian();//return cp3/C
 			
